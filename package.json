@@ -1,0 +1,70 @@
+{
+  "name": "@collide-kit/collide-fmt",
+  "version": "0.0.0",
+  "description": "🎨 Prettier preset for Collide Tech",
+  "keywords": [
+    "@collide-kit:prettier",
+    "@collide-kit:prettier-config",
+    "@collide-kit:formatting",
+    "@collide-kit:code-quality",
+    "@collide-kit:prettier-plugin",
+    "@collide-kit:config",
+    "@collide-kit:code-style"
+  ],
+  "homepage": "https://github.com/collide-kit/collide-fmt#readme",
+  "bugs": "https://github.com/collide-kit/collide-fmt/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/collide-kit/collide-fmt.git"
+  },
+  "funding": "https://github.com/sponsors/gratisv",
+  "license": "MIT",
+  "author": {
+    "name": "gratisv",
+    "email": "gratis.v@proton.me",
+    "url": "https://github.com/gratisv"
+  },
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.mts",
+      "import": "./dist/index.mjs"
+    }
+  },
+  "main": "./dist/index.mjs",
+  "types": "./dist/index.d.mts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "yarn build:clean && tsdown",
+    "build:clean": "rimraf dist",
+    "check-types": "tsgo -p ./tsconfig.json --noEmit",
+    "clean": "rimraf node_modules",
+    "clean:all": "rimraf dist node_modules",
+    "fmt:check": "prettier -c .",
+    "fmt:check:cache": "prettier -c . --cache",
+    "fmt:fix": "prettier -w . --log-level=warn",
+    "fmt:fix:cache": "prettier -w . --cache --log-level=warn"
+  },
+  "prettier": "@collide-kit/collide-fmt",
+  "dependencies": {
+    "@prettier/plugin-oxc": "^0.1.3",
+    "prettier": "^3.8.1",
+    "prettier-plugin-multiline-arrays": "^4.1.4",
+    "prettier-plugin-packagejson": "^3.0.0",
+    "prettier-plugin-sort-json": "^4.2.0"
+  },
+  "devDependencies": {
+    "@arethetypeswrong/cli": "^0.18.2",
+    "@types/node": "^25.3.3",
+    "@typescript/native-preview": "^7.0.0-dev.20260228.1",
+    "publint": "^0.3.17",
+    "rimraf": "^6.1.3",
+    "tsdown": "^0.21.0-beta.2"
+  },
+  "packageManager": "yarn@4.12.0",
+  "publishConfig": {
+    "access": "public"
+  }
+}
