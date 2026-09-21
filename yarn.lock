@@ -100,7 +100,7 @@ __metadata:
     "@prettier/plugin-oxc": "npm:^0.2.3"
     "@types/node": "npm:^25.9.7"
     "@typescript/native-preview": "npm:^7.0.0-dev.20260707.2"
-    prettier: "npm:^3.9.7"
+    prettier: "npm:^3.9.8"
     prettier-plugin-multiline-arrays: "npm:^4.1.11"
     prettier-plugin-packagejson: "npm:^3.0.2"
     prettier-plugin-sort-json: "npm:^4.2.0"
@@ -1441,7 +1441,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:^3.9.7":
+"prettier@npm:^3.9.8":
   version: 3.9.8
   resolution: "prettier@npm:3.9.8"
   bin:
