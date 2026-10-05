@@ -98,13 +98,13 @@ __metadata:
   dependencies:
     "@arethetypeswrong/cli": "npm:^0.18.5"
     "@prettier/plugin-oxc": "npm:^0.2.3"
-    "@types/node": "npm:^25.9.8"
+    "@types/node": "npm:^25.9.9"
     "@typescript/native-preview": "npm:^7.0.0-dev.20260707.2"
     prettier: "npm:^3.9.9"
     prettier-plugin-multiline-arrays: "npm:^4.1.11"
     prettier-plugin-packagejson: "npm:^3.0.2"
     prettier-plugin-sort-json: "npm:^4.2.0"
-    publint: "npm:^0.3.24"
+    publint: "npm:^0.3.25"
     rimraf: "npm:^6.1.3"
     tsdown: "npm:^0.23.0"
   languageName: unknown
@@ -518,12 +518,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^25.9.8":
-  version: 25.9.8
-  resolution: "@types/node@npm:25.9.8"
+"@types/node@npm:^25.9.9":
+  version: 25.9.9
+  resolution: "@types/node@npm:25.9.9"
   dependencies:
     undici-types: "npm:>=7.24.0 <7.24.7"
-  checksum: 10c0/482b8f1d8532fb034d4b49b8c7a5942aee4bb21482d7e49a5d3fbc1dcb3f04fde0c312f91f6aeca185875a325e14e75f94b6171f1ef7a718a6d62c0862c2ab80
+  checksum: 10c0/2ba08caa7118af2f2761f2f5db9b6304faf5bd027a2dcb72bf6fcae3dd9e470d17045fec27f89023c02e7d4e0661c6e5877174bd39794bef080db8b35ad4a1ea
   languageName: node
   linkType: hard
 
@@ -1460,9 +1460,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"publint@npm:^0.3.24":
-  version: 0.3.24
-  resolution: "publint@npm:0.3.24"
+"publint@npm:^0.3.25":
+  version: 0.3.25
+  resolution: "publint@npm:0.3.25"
   dependencies:
     "@publint/pack": "npm:^0.1.7"
     package-manager-detector: "npm:^1.8.0"
@@ -1470,7 +1470,7 @@ __metadata:
     sade: "npm:^1.8.1"
   bin:
     publint: ./src/cli.js
-  checksum: 10c0/ad938ca375aa196845cd2705c49295662839fb991374c24d9acb85945177ebe73c95c8b82666858826b36a8dad943427a0ef0eb1f8b7eaa8abe4c8bc5f55781c
+  checksum: 10c0/b58e915978d90bce5e84295eb78b9393b58b11590f93603c03f96da5366a6474c05111c13b3aa68a0c33fa2e5215cecf15cfcb4026abadf7e01f5ec4cc82207e
   languageName: node
   linkType: hard
 
